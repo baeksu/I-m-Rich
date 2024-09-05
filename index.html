@@ -3,14 +3,19 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+
         <title>I'm Rich</title>
     </head>
     <body>
-        <div id="input-expenses">
-            <input type="text" placeholder="지출 입력..." />
-            <span>식비</span>
-            <span>의류</span>
-            <span>주식</span>
+        <div id="input-expenses-container">
+            <input type="text" id="expenses-cost" />
+            <input type="text" id="expenses-descript" />
+            <span>종류</span>
+            <span id="new-expenses-submit">입력</span>
         </div>
+        <div id="expenses-history-container"></div>
+
+        <script src="."></script>
     </body>
 </html>

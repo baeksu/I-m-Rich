@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    /* width: 500px; */
+}
+
+#input-expenses-container {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#input-expenses-container input {
+    height: 50px;
+    width: 300px;
+}
