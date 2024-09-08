@@ -6,14 +6,14 @@
 
 body {
     display: flex;
-    background-color: gray;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* width: 500px; */
+
+    background-color: gray;
 }
 
 #input-expenses-container {
-    background-color: red;
     display: flex;
     flex-direction: column;
 
@@ -24,4 +24,18 @@ body {
 #input-expenses-container input {
     height: 50px;
     width: 300px;
+}
+
+#calender-container {
+    display: flex;
+}
+
+#new-expenses-submit {
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+}
+
+#new-expenses-submit:hover {
+    background-color: blue;
 }
